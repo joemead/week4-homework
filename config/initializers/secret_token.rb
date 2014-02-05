@@ -9,4 +9,4 @@
 
 # Make sure your secret_key_base is kept private
 # if you're sharing your code publicly.
-Week4hw::Application.config.secret_key_base = '76ae8a497996e51dfe390590d49a6d5983eb790b5526c2ef4b64a7430b9ede48aa5ca05707dbe9e118f0e26a01d495434d0a6cdb3bfd4b60da408e8fb4f470a2'
+Week4::Application.config.secret_key_base = 'd5cc010709f9fd2483e906f6465f1374e05b5297445d99c9bfdf06e746bf6b6ed1f76571e29c897751aa4fe9a8ccdb5d54e78596ca92afcaf642cc50f075a8a9'

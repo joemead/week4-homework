@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
-  <title>Week4hw</title>
+  <title>Week4</title>
 
   <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootswatch/3.0.2/cerulean/bootstrap.min.css">
   <link rel="stylesheet" href="//netdna.bootstrapcdn.com/font-awesome/4.0.2/css/font-awesome.min.css">
@@ -32,13 +32,16 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <%= link_to "Week 4 Homework", "/", :class => "navbar-brand" %>
+      <%= link_to "Week 4 Homework", "http://localhost:3000", :class => "navbar-brand" %>
     </div>
 
     <!-- Collect the nav links, forms, and other content for toggling -->
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav">
-        <li><a href="#">About</a></li>
+        <li><a href="/weather/search">Weather</a></li>
+         <li><a href="/weather/search">Search</a></li>
+         <li><a href="/weather/conditions?city=Evanston%2C+IL">Conditions</a></li>
+          <li><a href="/audio">Audio</a></li>
       </ul>
     </div><!-- /.navbar-collapse -->
   </nav>
